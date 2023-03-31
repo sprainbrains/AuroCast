@@ -45,9 +45,6 @@ Item {
                 ", [url, id]);
                 subscription(url, true);
             }
-            mock("http://feeds.rucast.net/radio-t", 1);
-            mock("http://feeds.feedburner.com/razbor-podcast", 2);
-            mock("http://aerostat.podfm.ru/aerostat/rss/rss.xml", 3);
 
             console.log("Dao: database initialized");
         });
