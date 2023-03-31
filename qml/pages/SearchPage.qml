@@ -46,7 +46,7 @@ Page {
             EnterKey.iconSource: "image://theme/icon-m-enter-next"
             EnterKey.onClicked: addByRssUrlDialog.accept()
 
-            text: "http://devzen.ru/feed/" // TODO: remove this
+            text: ""
         }
 
         acceptDestination: Component {
