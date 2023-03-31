@@ -52,7 +52,7 @@ BackgroundItem {
 
                 Layout.fillWidth: true
 
-                text: qsTr("%1 episodes", "number of podcast's episodes", model.episodesCount).arg(model.episodesCount)
+                text: model.episodesCount ? qsTr("%1 episodes", "number of podcast's episodes", model.episodesCount).arg(model.episodesCount) : qsTr("Loading...")
 
                 color: element.highlighted ? Theme.secondaryHighlightColor : Theme.secondaryColor
                 font.pixelSize: Theme.fontSizeSmall
