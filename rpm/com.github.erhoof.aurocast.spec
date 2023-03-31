@@ -22,7 +22,7 @@ Source0:    %{name}-%{version}.tar.bz2
 Source100:  com.github.erhoof.aurocast.yaml
 Requires:   sailfishsilica-qt5 >= 1.0
 Requires:   qt5-qtdeclarative-import-xmllistmodel >= 5.6
-BuildRequires:  pkgconfig(auroraapp)
+BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(Qt5Quick)
