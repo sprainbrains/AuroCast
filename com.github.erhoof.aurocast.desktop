@@ -12,6 +12,6 @@ Name=AuroCast
 Name[ru]=АвроКаст
 
 [X-Sailjail]
-Permissions=Internet;Media
+Permissions=Internet;Audio
 OrganizationName=com.github.erhoof
 ApplicationName=AuroCast
