@@ -13,7 +13,7 @@
     <name>EpisodesListView</name>
     <message>
         <source>Error: could not fetch station data</source>
-        <translation>Ошибка: не возможно загрузить данные</translation>
+        <translation>Ошибка: невозможно загрузить данные</translation>
     </message>
     <message>
         <source>Update</source>
